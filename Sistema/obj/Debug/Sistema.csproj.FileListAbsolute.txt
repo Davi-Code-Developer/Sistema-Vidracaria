@@ -1,0 +1,11 @@
+C:\Users\davis\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\davis\source\repos\Sistema\Sistema\bin\Debug\Sistema.exe
+C:\Users\davis\source\repos\Sistema\Sistema\bin\Debug\Sistema.pdb
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.csprojAssemblyReference.cache
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.Form1.resources
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateResource.cache
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.exe
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.pdb
+C:\Users\davis\source\repos\Sistema\Sistema\obj\Debug\Sistema.Form2.resources
