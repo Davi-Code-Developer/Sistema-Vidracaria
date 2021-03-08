@@ -30,11 +30,11 @@ namespace Sistema
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.TextBox_User = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.TextBox_Pass = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -49,6 +49,19 @@ namespace Sistema
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(484, 361);
             this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(181)))));
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.TextBox_User);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.TextBox_Pass);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Location = new System.Drawing.Point(115, 47);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(250, 244);
+            this.panel2.TabIndex = 4;
             // 
             // label1
             // 
@@ -88,19 +101,6 @@ namespace Sistema
             this.TextBox_Pass.Name = "TextBox_Pass";
             this.TextBox_Pass.Size = new System.Drawing.Size(186, 20);
             this.TextBox_Pass.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(173)))), ((int)(((byte)(181)))));
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.TextBox_User);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.TextBox_Pass);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(115, 47);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 244);
-            this.panel2.TabIndex = 4;
             // 
             // button1
             // 

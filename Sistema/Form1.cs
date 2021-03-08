@@ -39,11 +39,6 @@ namespace Sistema
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //apagar essa pika aqui
-            Form2 telaPrincipal = new Form2();
-            telaPrincipal.Show();
-            this.Hide();
-            /*
             string usario = TextBox_User.Text;
             string senha = TextBox_Pass.Text;
 
@@ -58,7 +53,7 @@ namespace Sistema
             else
             {
                 MessageBox.Show("Usuario ou senha incorreto!");
-            }*/
+            }
         }
     }
 }

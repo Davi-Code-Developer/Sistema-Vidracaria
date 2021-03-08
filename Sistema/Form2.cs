@@ -118,5 +118,10 @@ namespace Sistema
             Visualizar_Cliente V_Cliente = new Visualizar_Cliente();
             V_Cliente.ShowDialog();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,6 +30,7 @@ namespace Sistema
         private void InitializeComponent()
         {
             this.Painel_Fundo = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.bntCadastro = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.Painel_Cad_Cliente = new System.Windows.Forms.Panel();
@@ -52,7 +53,6 @@ namespace Sistema
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.Painel_Fundo.SuspendLayout();
             this.Painel_Cad_Cliente.SuspendLayout();
             this.GroupSexo.SuspendLayout();
@@ -70,6 +70,26 @@ namespace Sistema
             this.Painel_Fundo.Name = "Painel_Fundo";
             this.Painel_Fundo.Size = new System.Drawing.Size(484, 611);
             this.Painel_Fundo.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(12, 583);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(84, 23);
+            this.button2.TabIndex = 38;
+            this.button2.Text = "Voltar";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // bntCadastro
             // 
@@ -323,25 +343,6 @@ namespace Sistema
             this.label4.Size = new System.Drawing.Size(49, 20);
             this.label4.TabIndex = 6;
             this.label4.Text = "Rua:";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(45)))), ((int)(((byte)(53)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 583);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 23);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Voltar";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // Cadastro_Cliente
             // 
