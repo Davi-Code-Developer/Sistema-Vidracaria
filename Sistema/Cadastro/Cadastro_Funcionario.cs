@@ -15,19 +15,16 @@ namespace Sistema
     {
         MySqlConnection conexao;
         MySqlCommand comando;
-        MySqlDataAdapter da;
-        MySqlDataReader dr;
         string strSQL;
         public Cadastro_Funcionario()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bntCadastro_Click(object sender, EventArgs e)
         {
             if (TxtNome.TextLength == 0 || TxtEmail.TextLength == 0 ||
-                TxtTelefone.TextLength == 0 || TxtCPF.TextLength == 0 ||
-                TxtDataNascimento.TextLength == 0 || BoxSexo.SelectedItem == null)
+                TxtTelefone.TextLength == 0 || TxtCPF.TextLength == 0)
             {
                 MessageBox.Show("Alguma das caixas de texto esta vazia!");
             }
@@ -38,14 +35,14 @@ namespace Sistema
                     conexao = new MySqlConnection("Server=localhost;Database=sistema;Uid=root;Pwd=1234;");
                     strSQL = "INSERT INTO FUNCIONARIO " +
                         "(NOME,EMAIL,TELEFONE,CPF,DATANASC,SEXO) VALUES" +
-                        "(@NOME,@EMAIL,@TELEFONE,@CPF,@DATA,@SEXO);";
+                        "(@NOME,@EMAIL,@TELEFONE,@CPF,@DATANASC,@SEXO);";
                     comando = new MySqlCommand(strSQL, conexao);
                     comando.Parameters.AddWithValue("@NOME", TxtNome.Text);
                     comando.Parameters.AddWithValue("@EMAIL", TxtEmail.Text);
                     comando.Parameters.AddWithValue("@TELEFONE", TxtTelefone.Text);
                     comando.Parameters.AddWithValue("@CPF", TxtCPF.Text);
-                    comando.Parameters.AddWithValue("@DATA", TxtDataNascimento.Text);
-                    comando.Parameters.AddWithValue("@SEXO", BoxSexo.SelectedItem.ToString());
+                    comando.Parameters.AddWithValue("@DATANASC", TxtData.Text);
+                    comando.Parameters.AddWithValue("@SEXO", CheckOp());
                     conexao.Open();
                     comando.ExecuteNonQuery();
                 }
@@ -58,10 +55,25 @@ namespace Sistema
                     conexao.Close();
                     conexao = null;
                     comando = null;
-                    MessageBox.Show("CLiente cadastrado com sucesso");
+                    MessageBox.Show("Cliente cadastrado com sucesso");
                 }
             }
-            
+        }
+        private string CheckOp()
+        {
+            if (RadioMasculino.Checked == true)
+            {
+                return "Masculino";
+            }
+            else
+            {
+                return "Feminino";
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

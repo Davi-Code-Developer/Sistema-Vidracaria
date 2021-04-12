@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Sistema.Fields;
+using Sistema.Visualizar;
+using Sistema.Cadastro;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -109,19 +112,38 @@ namespace Sistema
 
         private void button12_Click_1(object sender, EventArgs e)
         {
-            Tela_Venda t_venda = new Tela_Venda();
+            Cadastrar_Pedido t_venda = new Cadastrar_Pedido();
             t_venda.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Visualizar_Cliente V_Cliente = new Visualizar_Cliente();
-            V_Cliente.ShowDialog();
+            Tela_Senha t_Senha = new Tela_Senha();
+            t_Senha.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Tela_Senha_Fun tela_Senha_Fun = new Tela_Senha_Fun();
+            tela_Senha_Fun.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Visualizar_Estoque Ve = new Visualizar_Estoque();
+            Ve.ShowDialog();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
+            Visualizar_Pendentes vp = new Visualizar_Pendentes();
+            vp.ShowDialog();
+        }
 
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Tela_Senha_His ts = new Tela_Senha_His();
+            ts.ShowDialog();
         }
     }
 }

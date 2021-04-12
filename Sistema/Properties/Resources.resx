@@ -118,7 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IconUpdate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconsClient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconsClient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-x-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-x-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_Carrinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Icon_Carrinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconX1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_More2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Icon_More2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-mais-26_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-mais-26_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconFuncio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconFuncio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-coordenada-x-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-coordenada-x-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_Delet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Icon_Delet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-selecionado-30_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-selecionado-30_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMore1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconMore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pendentes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Pendentes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconUpdate.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconsTelefone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconsTelefone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-shopping-bags-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-shopping-bags-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-mais-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-mais-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconsEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconsEmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-adicionar-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\icons8-adicionar-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconX.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_Update2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Icon_Update2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconMore.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\unknown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconFuncio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconFuncio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\unknown (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconProduto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconProduto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_Carrinho-Abrir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\Icon_Carrinho-Abrir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconsEmail2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconsEmail2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="URLVQtXP3pkAAAAASUVORK5CYII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\URLVQtXP3pkAAAAASUVORK5CYII.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

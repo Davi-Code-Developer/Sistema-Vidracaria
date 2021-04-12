@@ -47,17 +47,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastro\Cadastrar_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Cadastrar_Pedido.Designer.cs">
+      <DependentUpon>Cadastrar_Pedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro\Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastro\Cadastro_Cliente.Designer.cs">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cadastro\Cadastro_Cliente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Cadastro_Cliente2.Designer.cs">
+      <DependentUpon>Cadastro_Cliente2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro\Cadastro_Produto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastro\Cadastro_Produto.Designer.cs">
       <DependentUpon>Cadastro_Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro\Carrinho_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Carrinho_Pedido.Designer.cs">
+      <DependentUpon>Carrinho_Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro\Item.cs" />
+    <Compile Include="Cadastro\Produto.cs" />
+    <Compile Include="Fields\Tela_Atualizar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Atualizar_Cliente.Designer.cs">
+      <DependentUpon>Tela_Atualizar_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Atualizar_Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Atualizar_Funcionario.Designer.cs">
+      <DependentUpon>Tela_Atualizar_Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Atualizar_Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Atualizar_Produto.Designer.cs">
+      <DependentUpon>Tela_Atualizar_Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Confirm_Excluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Confirm_Excluir.Designer.cs">
+      <DependentUpon>Tela_Confirm_Excluir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha.Designer.cs">
+      <DependentUpon>Tela_Senha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha_Fun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha_Fun.Designer.cs">
+      <DependentUpon>Tela_Senha_Fun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha_His.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fields\Tela_Senha_His.Designer.cs">
+      <DependentUpon>Tela_Senha_His.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,11 +141,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tela_Venda.cs">
+    <Compile Include="Visualizar\Tela_Finalizar_Compra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tela_Venda.Designer.cs">
-      <DependentUpon>Tela_Venda.cs</DependentUpon>
+    <Compile Include="Visualizar\Tela_Finalizar_Compra.Designer.cs">
+      <DependentUpon>Tela_Finalizar_Compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar\Tela_Finalizar_Compra_SIM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Tela_Finalizar_Compra_SIM.Designer.cs">
+      <DependentUpon>Tela_Finalizar_Compra_SIM.cs</DependentUpon>
     </Compile>
     <Compile Include="Visualizar\Visualizar_Cliente.cs">
       <SubType>Form</SubType>
@@ -91,14 +159,74 @@
     <Compile Include="Visualizar\Visualizar_Cliente.Designer.cs">
       <DependentUpon>Visualizar_Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Visualizar\Visualizar_Estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Estoque.Designer.cs">
+      <DependentUpon>Visualizar_Estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Funcionario.Designer.cs">
+      <DependentUpon>Visualizar_Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Historico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Historico.Designer.cs">
+      <DependentUpon>Visualizar_Historico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Pendentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Pendentes.Designer.cs">
+      <DependentUpon>Visualizar_Pendentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Pendente_Selecionado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar\Visualizar_Pendente_Selecionado.Designer.cs">
+      <DependentUpon>Visualizar_Pendente_Selecionado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cadastro\Cadastrar_Pedido.resx">
+      <DependentUpon>Cadastrar_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro\Cadastro_Cliente.resx">
       <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Cadastro_Cliente2.resx">
+      <DependentUpon>Cadastro_Cliente2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro\Cadastro_Funcionario.resx">
       <DependentUpon>Cadastro_Funcionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro\Cadastro_Produto.resx">
       <DependentUpon>Cadastro_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Carrinho_Pedido.resx">
+      <DependentUpon>Carrinho_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Atualizar_Cliente.resx">
+      <DependentUpon>Tela_Atualizar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Atualizar_Funcionario.resx">
+      <DependentUpon>Tela_Atualizar_Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Atualizar_Produto.resx">
+      <DependentUpon>Tela_Atualizar_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Confirm_Excluir.resx">
+      <DependentUpon>Tela_Confirm_Excluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Senha.resx">
+      <DependentUpon>Tela_Senha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Senha_Fun.resx">
+      <DependentUpon>Tela_Senha_Fun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fields\Tela_Senha_His.resx">
+      <DependentUpon>Tela_Senha_His.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -116,11 +244,29 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Tela_Venda.resx">
-      <DependentUpon>Tela_Venda.cs</DependentUpon>
+    <EmbeddedResource Include="Visualizar\Tela_Finalizar_Compra.resx">
+      <DependentUpon>Tela_Finalizar_Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Tela_Finalizar_Compra_SIM.resx">
+      <DependentUpon>Tela_Finalizar_Compra_SIM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Visualizar\Visualizar_Cliente.resx">
       <DependentUpon>Visualizar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Visualizar_Estoque.resx">
+      <DependentUpon>Visualizar_Estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Visualizar_Funcionario.resx">
+      <DependentUpon>Visualizar_Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Visualizar_Historico.resx">
+      <DependentUpon>Visualizar_Historico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Visualizar_Pendentes.resx">
+      <DependentUpon>Visualizar_Pendentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar\Visualizar_Pendente_Selecionado.resx">
+      <DependentUpon>Visualizar_Pendente_Selecionado.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -136,7 +282,88 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Imagens\" />
+    <None Include="Imagens\IconX.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icon_Delet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconMore.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconUpdate.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconUpdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconMore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconsTelefone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconsEmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconsEmail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconsClient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconFuncio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\IconProduto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icon_Update2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icon_More2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icon_Carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Icon_Carrinho-Abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-x-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-coordenada-x-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-shopping-bags-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\Pendentes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\unknown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\unknown %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-mais-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-mais-26_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-adicionar-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\icons8-selecionado-30_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\URLVQtXP3pkAAAAASUVORK5CYII.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,11 +22,6 @@ namespace Sistema
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -39,15 +34,21 @@ namespace Sistema
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
+        }
+
+        private void bntEntrar_Click(object sender, EventArgs e)
+        {
             string usario = TextBox_User.Text;
             string senha = TextBox_Pass.Text;
 
-            string user = "admin";
-            string pass = "0000";
+            string user = "adm";
+            string pass = "adm";
+
             if(usario == user && senha == pass)
             {
-                Form2 telaPrincipal = new Form2();
-                telaPrincipal.Show();
+                Form2 telaPrincipall = new Form2();
+                telaPrincipall.Show();
                 this.Hide();
             }
             else
